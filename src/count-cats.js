@@ -21,11 +21,8 @@ function countCats(matrix) {
   for (let i = 0; i < matrix.length; i++) {
     for (let n = 0; n < matrix[i].length; n++) {
 
-      
       if (matrix[i][n] === '^^') {
-        sum += 1;
-      } else {
-        return (0);
+        sum++;
       }
       
     }
